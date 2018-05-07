@@ -1,6 +1,17 @@
 <?php
 
 return [
+    'supportEmail' => 'help@p4.jaechong.me',
+
+    'nav' => [
+        '/orders' => 'Orders',
+        '/orders/create' => 'New Order',
+        '/books/search' => 'Search',
+        '/trivia' => 'Trivia',
+        '/practice' => 'Practice',
+        '/about' => 'About',
+        '/contact' => 'Contact',
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -13,7 +24,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'MyRestaurant'),
 
     /*
     |--------------------------------------------------------------------------
