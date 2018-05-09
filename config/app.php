@@ -1,16 +1,11 @@
 <?php
 
 return [
-    'supportEmail' => 'help@p4.jaechong.me',
-
     'nav' => [
+        '/' => 'Home',
+        '/menu' => 'Menu',
         '/orders' => 'Orders',
-        '/orders/create' => 'New Order',
-        '/books/search' => 'Search',
-        '/trivia' => 'Trivia',
-        '/practice' => 'Practice',
-        '/about' => 'About',
-        '/contact' => 'Contact',
+        '/orders/create' => 'New Order'
     ],
 
     /*

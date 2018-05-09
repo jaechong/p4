@@ -1,0 +1,32 @@
+.order {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.order h2 {
+    font-size: 1.3em;
+    margin: 4px 0 4px 0;
+    font-style: italic;
+    text-align: left;
+}
+
+.plate {
+    float: left;
+    width: 15%;
+    border: 1px solid black;
+}
+
+.orderActions {
+    list-style-type: none;
+}
+
+.orderActions li {
+    display: inline-block;
+}
+
+.orderActions li a {
+    text-decoration: none;
+    padding-right: 20px;
+}

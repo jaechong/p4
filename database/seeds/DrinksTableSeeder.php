@@ -17,7 +17,8 @@ class DrinksTableSeeder extends Seeder
             ['Beer', 150, 5.95],
             ['Red Wine', 85, 5.95],
             ['White Wine', 82, 5.95],
-            ['Coffee', 1, 1.95]
+            ['Coffee', 1, 1.95],
+            ['water', 0, 0]
         ];
 
         $count = count($drinks);

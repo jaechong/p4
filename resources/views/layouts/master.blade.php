@@ -13,19 +13,26 @@
 </head>
 <body>
 
+@if(session('alert'))
+    <div class='flashAlert'>{{ session('alert') }}</div>
+@endif
+
 <header>
-    <a href='/'><img src='/images/my_restaurant.png' id='logo' alt='My Restaurant image'></a>
+    <a id="logo" href='/'><img src='/images/restaurant_logo.png' alt='My Restaurant image'></a>
     @include('modules.nav')
-</heade>
+    </heade>
 
-<section>
-    @yield('content')
-</section>
+    <section>
+        <div class='panel panel-default'>
 
-<footer>
-    &copy; {{ date('Y') }}
-    <a href='http://github.com/jaechong/p4'><i class='fa fa-github'></i> View on Github</a>
-</footer>
+            @yield('content')
+        </div>
+    </section>
+
+    <footer>
+        &copy; {{ date('Y') }}
+        <a href='http://github.com/jaechong/p4'><i class='fa fa-github'></i> View on Github</a>
+    </footer>
 
 </body>
 </html>

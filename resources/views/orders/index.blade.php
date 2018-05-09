@@ -1,34 +1,25 @@
 @extends('layouts.master')
 
-@push('head')
-    <link href='/css/orders/index.css' rel='stylesheet'>
-@endpush
-
 @section('title')
-    All the books
+    All the orders
 @endsection
 
 @section('content')
+    <div class='panel'>
 
-    @if(count($newOrders) > 0)
-        <aside id='newOrders'>
-            <h2>Recently Added</h2>
-            <ul>
-                @foreach($newOrders as $book)
-                    <li><a href='/orders/{{ $order->id }}'>{{ $order->id }}</a></li>
-                @endforeach
-            </ul>
-        </aside>
-    @endif
+        <h1>All Orders</h1>
 
-    <h1>All Orders</h1>
-    @if(count($orders) > 0)
-        @foreach($orders as $order)
-            <a class='order cf' href='/orders/{{ $order->id }}'>
-<!--                <h2>{{ $order-> }}</h2>
-                <p>{{ $book->plate->getPlateName()  }}</p> -->
-            </a>
-        @endforeach
-    @endif
+        @if(count($orders) > 0)
+            @foreach($orders as $order)
+                <div class='order'>
+                    <a class='order cf' href='/orders/{{ $order->id }}'></a>
+                    <h2>Order ID: {{ $order->id }} Name: {{ $order->name }}</h2>
+                    <p>{{ $order->plate->name  }}</p>
+                    <li><a href='/orders/{{ $order->id }}/edit'><i class="fas fa-pencil-alt"></i> Edit</a>
+                    <li><a href='/orders/{{ $order->id }}/delete'><i class="fas fa-trash-alt"></i> Delete</a>
+                </div>
+            @endforeach
 
+        @endif
+    </div>
 @endsection
