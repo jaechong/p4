@@ -40,9 +40,11 @@ __Delete__
   + Observe confirmation message
 
 ## Outside resources
-*Mostly used foobook example: https://github.com/susanBuck/foobooks*
-*Logo image: https://www.google.ca/search?q=transparent+restaurant+logo+images&rlz=1C5CHFA_enCA761CA761&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjOisi95fnaAhUB2IMKHUwpBpQQsAQIKA&biw=1280&bih=882#imgrc=znvg6fCQX2OAYM:*
-*Not much time for more thorough app and did not really have to use much outside resources other than foobooks and lecture videos*
+ + Mostly used foobook example: https://github.com/susanBuck/foobooks
+ + Logo image: https://www.google.ca/search?q=transparent+restaurant+logo+images&rlz=1C5CHFA_enCA761CA761&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjOisi95fnaAhUB2IMKHUwpBpQQsAQIKA&biw=1280&bih=882#imgrc=znvg6fCQX2OAYM:
+ + How to set opacity/transparent: https://www.w3schools.com/css/css_image_transparency.asp
+ + Plate pictures: https://www.yelp.ca/biz/grill-on-canboro-pelham-3
+ + Not much time for implementing more thorough app and did not really have time to use much outside resources other than foobooks and lecture videos
 
 ## Notes for instructor
-*This contains bare minimum requirements for the project.  I plan on expanding for my friend who just opened up his own restaurant.*
+ + This contains bare minimum requirements for the project.  I plan on expanding for my friend who just opened up his own restaurant.
